@@ -115,14 +115,14 @@ export default {
           email: this.email,
           password: this.password,
         })
-        console.log(response.data)
-        const token = response.data.token
-        LocalStorage.set('token', token)
+        const { token, user } = response.data
+        LocalStorage.set('@petcare-user', user)
+        LocalStorage.set('@petcare-token', token)
 
         Notify.create({
           type: 'positive',
           message: 'Login realizado com sucesso!',
-          position: 'top',
+          position: 'bottom',
           timeout: 2000,
         })
 

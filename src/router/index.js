@@ -4,7 +4,7 @@ import { createRouter, createMemoryHistory, createWebHistory, createWebHashHisto
 import routes from './routes'
 
 function isAuthenticated() {
-  return !!LocalStorage.getItem('token')
+  return !!LocalStorage.getItem('@petcare-token')
 }
 
 export default defineRouter(function (/* { store, ssrContext } */) {
