@@ -9,12 +9,7 @@
       bordered
     >
       <q-card-section class="text-center q-pb-none">
-        <q-img
-          src="src/assets/logo-petcare-text.png"
-          class="pet-avatar"
-          style="width: 200px; height: 200px"
-          contain
-        />
+        <q-img :src="logoPetcare" class="pet-avatar" style="width: 200px; height: 200px" contain />
         <div class="text-subtitle1 text-grey-7">Cuide do seu melhor amigo</div>
       </q-card-section>
       <q-card-section class="q-pa-md">
@@ -94,6 +89,7 @@
 <script>
 import { api } from 'boot/axios'
 import { LocalStorage, Notify } from 'quasar'
+import logoPetcare from 'src/assets/logo-petcare-text.png'
 
 export default {
   name: 'LoginPage',
@@ -103,6 +99,7 @@ export default {
       password: '',
       isPwd: true,
       loading: false,
+      logoPetcare,
     }
   },
   computed: {
