@@ -126,7 +126,7 @@ export default {
           timeout: 2000,
         })
 
-        this.$router.push('/home')
+        this.$router.push({ path: '/home' })
       } catch (err) {
         Notify.create({
           type: 'negative',
@@ -139,7 +139,7 @@ export default {
       }
     },
     goToSignup() {
-      this.$router.push('/register')
+      this.$router.push({ path: '/register' })
     },
   },
 }

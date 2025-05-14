@@ -187,7 +187,7 @@ export default {
           position: 'top',
           timeout: 2000,
         })
-        this.$router.push('/')
+        this.$router.push({ path: '/' })
       } catch (err) {
         Notify.create({
           type: 'negative',
@@ -200,7 +200,7 @@ export default {
       }
     },
     goToLogin() {
-      this.$router.push('/')
+      this.$router.push({ path: '/' })
     },
   },
 }

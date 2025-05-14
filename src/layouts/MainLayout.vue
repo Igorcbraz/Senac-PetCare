@@ -386,7 +386,7 @@ export default {
     logout() {
       LocalStorage.remove('@petcare-user')
       LocalStorage.remove('@petcare-token')
-      this.$router.push('/')
+      this.$router.push({ path: '/' })
     },
     openAddPetDialog(pet) {
       if (pet) {

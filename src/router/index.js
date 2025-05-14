@@ -19,7 +19,7 @@ export default defineRouter(function (/* { store, ssrContext } */) {
   })
 
   Router.beforeEach((to, from, next) => {
-    const publicPages = ['/']
+    const publicPages = ['/', '/register']
     const isPublic = publicPages.includes(to.path)
 
     if (!isPublic && !isAuthenticated()) {
