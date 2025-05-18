@@ -32,8 +32,9 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - Cadastro de usuários
 - Cadastro de pets
-- Agendamento de consultas e serviços
-- Histórico médico dos pets
+- Início (Dashboard) - Painel principal com visão geral do pet.
+- Agenda - Calendário com os agendamentos (consultas, vacinas, banhos, adestramento, pet sitter).
+- Notificações - Lista de lembretes: medicação, alimentação, passeios, higiene, etc.
 
 ## 🔧 <a id="instalação"></a>Instalação
 
