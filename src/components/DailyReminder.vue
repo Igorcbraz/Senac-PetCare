@@ -1,10 +1,6 @@
 <template>
-  <q-card>
-    <q-card-section>
-      <div class="text-h6">Lembrete do Dia</div>
-      <div>{{ reminder }}</div>
-    </q-card-section>
-  </q-card>
+  <div class="text-h6">Lembrete do Dia</div>
+  <div>{{ reminder }}</div>
 </template>
 
 <script setup>
