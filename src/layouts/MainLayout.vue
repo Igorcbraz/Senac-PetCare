@@ -22,7 +22,7 @@
             style="max-width: 520px; border-radius: 20px"
           >
             <div class="row items-center no-wrap">
-              <q-avatar size="40px" class="q-mr-md">
+              <q-avatar size="40px" class="q-mr-md">    
                 <q-icon :name="selectedPet.avatar" size="28px" color="white" />
               </q-avatar>
               <div>
@@ -90,6 +90,14 @@
             </q-item-section>
             <q-item-section>Início</q-item-section>
           </q-item>
+
+          <q-item clickable v-ripple to="/reminders">
+          <q-item-section avatar>
+            <q-icon name="notifications_active" color="primary" />
+              </q-item-section>
+            <q-item-section>Lembretes</q-item-section>
+          </q-item>
+
 
           <q-item clickable v-ripple to="/veterinarians" disable>
             <q-item-section avatar>
@@ -315,6 +323,7 @@
         </q-card-section>
       </q-card>
     </q-dialog>
+    
   </q-layout>
 </template>
 <script>
@@ -519,6 +528,10 @@ export default {
     },
   },
 }
+
+
+
+
 </script>
 <style lang="scss">
 .pet-info-bar {
