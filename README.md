@@ -20,6 +20,8 @@
 
 https://github.com/user-attachments/assets/257fd941-356b-492e-bf8a-0755a57a2e85
 
+[![API Backend](https://img.shields.io/badge/API%20Backend-GitHub-blue?logo=github)](https://github.com/Igorcbraz/Senac-PetCare-api)
+
 ## 📋 <a id="sobre"></a>Sobre
 
 PetCare é uma aplicação web desenvolvida para auxiliar no gerenciamento dos nossos pets, facilitando o agendamento de consultas, controle de vacinas, cadastro de pets, além de outras funcionalidades essenciais para o dia a dia destes bichinhos.
