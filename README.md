@@ -18,7 +18,7 @@
 
 ## 🎬 <a id="apresentacao"></a>Apresentação
 
-[![Assista à apresentação do projeto](https://img.shields.io/badge/Assista%20ao%20vídeo-YouTube-red?logo=youtube)](https://youtu.be/DTfMj4hJX3A)
+https://github.com/user-attachments/assets/257fd941-356b-492e-bf8a-0755a57a2e85
 
 ## 📋 <a id="sobre"></a>Sobre
 
