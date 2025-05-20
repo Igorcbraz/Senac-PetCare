@@ -18,14 +18,7 @@
 
 ## 🎬 <a id="apresentacao"></a>Apresentação
 
-Assista abaixo à apresentação do projeto PetCare:
-
-<p align="center">
-  <video width="600" controls>
-    <source src="presentation.mp4" type="video/mp4">
-    Seu navegador não suporta a exibição de vídeos.
-  </video>
-</p>
+[![Assista à apresentação do projeto](https://img.shields.io/badge/Assista%20ao%20vídeo-YouTube-red?logo=youtube)](https://youtu.be/DTfMj4hJX3A)
 
 ## 📋 <a id="sobre"></a>Sobre
 
