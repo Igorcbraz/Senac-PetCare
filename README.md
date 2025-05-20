@@ -7,12 +7,24 @@
 </p>
 
 <p align="center">
+  <a href="#apresentacao">Apresentação</a> •
   <a href="#sobre">Sobre</a> •
   <a href="#tecnologias">Tecnologias</a> •
   <a href="#funcionalidades">Funcionalidades</a> •
   <a href="#instalação">Instalação</a> •
   <a href="#uso">Como Usar</a> •
   <a href="#equipe">Equipe</a>
+</p>
+
+## 🎬 <a id="apresentacao"></a>Apresentação
+
+Assista abaixo à apresentação do projeto PetCare:
+
+<p align="center">
+  <video width="600" controls>
+    <source src="presentation.mp4" type="video/mp4">
+    Seu navegador não suporta a exibição de vídeos.
+  </video>
 </p>
 
 ## 📋 <a id="sobre"></a>Sobre
